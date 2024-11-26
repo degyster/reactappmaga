@@ -1,0 +1,39 @@
+.CardWrap {
+    width: 316px;
+    height: 422px;
+    margin-bottom: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ButtonUniversal {
+    width: 284px;
+    height: 54px;
+}
+
+img {
+    width: 216px;
+    height: 322px;
+    object-fit: cover;
+    object-position: center;
+}
+
+button {
+    height: 50px;
+}
+
+
+.ButtonUniversal_button__6rVua {
+    height: 50px;
+}
+
+.ProductCard_PriceBox {
+    display: flex;
+    gap: 10px;
+}
+
+.Price_Old {
+    text-decoration: line-through;
+}

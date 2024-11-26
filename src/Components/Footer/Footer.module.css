@@ -1,0 +1,40 @@
+.footer {
+    margin: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; /* Добавлен отступ между колонками */
+}
+
+.card {
+    background-color: rgba(241, 243, 244, 1);
+    padding: 32px;
+    margin: 10px;
+    gap: 16px;
+    border-radius: 12px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 22px; /* Добавлен промежуток между иконками */
+}
+
+.links > a > img {
+    width: 100px; /* Сделаны иконки соцсетей меньшими */
+    height: 100px;
+}
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 380px) {
+    .card>h3 {
+        font-size: 18px; /* Меньший размер шрифта на очень маленьких экранах */
+    }
+}

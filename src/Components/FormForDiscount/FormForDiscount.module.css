@@ -1,0 +1,96 @@
+.FormForDiscount {
+    margin: 10px;
+    height: fit-content;
+    border-radius: 12px;
+    padding: 32px;
+    gap: 24px;
+    background: linear-gradient(261.47deg, #0B710B 32.63%, #339933 98.96%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.FormForDiscount > h2 {
+    margin: 15px 0 0 0;
+}
+
+.Content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.ErrorText {
+    color: white;
+    margin: 5px 0;
+    font-size: 15px;
+    text-align: right;
+    text-decoration: underline;
+}
+
+.Form > input {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: white;
+    width: 35vw;
+    height: 5vw;
+    padding: 16px;
+    margin: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 6px;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+.Form > input:focus {
+    outline: none;
+    border-color: #339933; 
+    box-shadow: 0 0 8px rgba(51, 153, 51, 0.6); 
+}
+
+::placeholder {
+    color: white;
+}
+
+.Hands {
+    width: 63vw;
+    height: 30vw;
+    background-image: url('../../img/discImage.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .FormForDiscount {
+        padding: 20px;
+    }
+
+    .Content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Form > input {
+        width: 80vw;
+        height: 8vw;
+    }
+
+    .Hands {
+        width: 80vw;
+        height: 40vw;
+    }
+}

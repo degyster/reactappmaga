@@ -1,0 +1,31 @@
+.notFoundPage {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.error {
+    background-image: url('../../img/404.png');
+    width: 50vw;
+    height: 200px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.notFoundPage > button:hover {
+    cursor: pointer;
+    transition: transform 0.4s ease, background-color 0.4s ease, color 0.4s ease;
+    transform: scale(1.2);
+    background-color: azure;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .error {
+        width: 70vw;
+        height: 150px;
+    }
+}

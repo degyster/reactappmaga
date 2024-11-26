@@ -1,0 +1,87 @@
+.productListItem {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.productItemEnhanced:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.salePercentContainer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 14px;
+    background-color: rgba(255, 0, 0, 0.7);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    display: none;
+}
+
+.saleActive {
+    display: block;
+}
+
+.imgContainer {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.img {
+    transition: transform 0.3s ease;
+}
+
+.imgTransition:hover {
+    transform: scale(1.1);
+}
+
+.addToCartButton {
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.addToCartButton:hover {
+    background-color: #45a049;
+}
+
+.addedState {
+    background-color: #7bbf77;
+}
+
+.container {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.prices {
+    display: flex;
+    align-items: center;
+}
+
+.discountPrice {
+    color: #e74c3c;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.oldPrice {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 16px;
+}
+
+.productTitle {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: 600;
+}
